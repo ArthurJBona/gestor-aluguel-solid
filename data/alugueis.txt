@@ -6,3 +6,5 @@ Aluguel comercial de 10 meses realizado no valor de R$500,00/mês, com adição 
 Aluguel de casa de 10 meses realizado no valor de R$1500,00/mês, resultado no total de R$15000,00.
 Aluguel de casa de 24 meses realizado no valor de R$1300,00/mês, resultado no total de R$31200,00.
 Aluguel de casa de 20 meses realizado no valor de R$1300,00/mês, resultado no total de R$26000,00.
+Aluguel em temporada de 20 dias realizado no valor de R$1000,00/dia, resultado no total de R$20000,00.
+Aluguel em temporada de 3 dias realizado no valor de R$100,00/dia, resultado no total de R$300,00.

@@ -32,7 +32,7 @@ public class AluguelForm extends JFrame{
     private JTextArea jtaResultados;
 
     // Adição extra na string das opções
-    private String[] opcoesTipoAluguel = {"Apartamento", "Casa", "Comercial"};
+    private String[] opcoesTipoAluguel = {"Apartamento", "Casa", "Comercial", "Temporada"};
 
     public AluguelForm() {
         setSize(420,520);
@@ -178,6 +178,7 @@ public class AluguelForm extends JFrame{
             case "Apartamento": return new AluguelCasa(valor, tempo);
             case "Casa": return new AluguelCasa(valor, tempo);
             case "Comercial": return new AluguelComercial(valor, tempo);
+            case "Temporada": return new AluguelTemporada(tempo, valor); // Adição extra desse case
             default: 
             JOptionPane.showMessageDialog(null, "Erro ao obter tipo de aluguel.");
             return null;
