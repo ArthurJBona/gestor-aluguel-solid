@@ -1,4 +1,8 @@
-Aluguel de casa de 12 meses realizado no valor de R$123123,00/mês, resultado no total de R$1477476,00.
-Aluguel de casa de 12 meses realizado no valor de R$123123,00/mês, resultado no total de R$1477476,00.
-Aluguel comercial de 12 meses realizado no valor de R$123123,00/mês, com adição de R$73873,80 de IPTU, resultando no total de R$1551349,80.
-Aluguel em temporada de 12 dias realizado no valor de R$123123,00/dia, resultado no total de R$1477476,00.
+Aluguel de casa de 12 meses realizado no valor de R$800,00/mês, resultado no total de R$9600,00.
+Aluguel de casa de 12 meses realizado no valor de R$800,00/mês, resultado no total de R$9600,00.
+Aluguel comercial de 12 meses realizado no valor de R$800,00/mês, com adição de R$480,00 de IPTU, resultando no total de R$10080,00.
+Aluguel comercial de 8 meses realizado no valor de R$700,00/mês, com adição de R$280,00 de IPTU, resultando no total de R$5880,00.
+Aluguel comercial de 10 meses realizado no valor de R$500,00/mês, com adição de R$250,00 de IPTU, resultando no total de R$5250,00.
+Aluguel de casa de 10 meses realizado no valor de R$1500,00/mês, resultado no total de R$15000,00.
+Aluguel de casa de 24 meses realizado no valor de R$1300,00/mês, resultado no total de R$31200,00.
+Aluguel de casa de 20 meses realizado no valor de R$1300,00/mês, resultado no total de R$26000,00.
