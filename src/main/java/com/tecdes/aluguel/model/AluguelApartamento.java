@@ -3,8 +3,8 @@ package com.tecdes.aluguel.model;
 public class AluguelApartamento extends AluguelMensal {
 
     public AluguelApartamento(double valorMensal, int qntMeses) {
-            super(valorMensal, qntMeses);
-        }
+        super(valorMensal, qntMeses);
+    }
     
     // Implementação do método da interface Aluguel com particularidades de AluguelApartamento
     @Override

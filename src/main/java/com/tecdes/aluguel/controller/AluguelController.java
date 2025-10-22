@@ -6,7 +6,7 @@ import com.tecdes.aluguel.model.Aluguel;
 import com.tecdes.aluguel.repository.AluguelRepository;
 
 public class AluguelController {
-    AluguelRepository repository;
+    private AluguelRepository repository;
 
     public AluguelController() {
         this.repository = new AluguelRepository();
