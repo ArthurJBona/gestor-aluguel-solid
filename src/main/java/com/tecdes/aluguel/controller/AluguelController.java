@@ -9,6 +9,7 @@ public class AluguelController {
     private AluguelRepository repository;
 
     public AluguelController() {
+        // Injeção de dependência do repository
         this.repository = new AluguelRepository();
     }
 
@@ -25,6 +26,7 @@ public class AluguelController {
         return alugueis;
     }
 
+    // Método extra para funcionalidade de limpar histórico do txt pela interface
     public void limparHistorico() {
         repository.limparHistorico();
     }

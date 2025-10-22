@@ -1,6 +1,8 @@
 package com.tecdes.aluguel.model;
 
+// Classe abstrata que implementa interface de Aluguel, permite existir aluguel mensal e outros tipos de aluguel
 public abstract class AluguelDiario implements Aluguel{
+    // Parâmetro que serão utilizados pelos diferentes tipos de aluguel, ao invés de ser utilizados parâmetros
     private int diasAluguel;
     private double valorDiario;
 

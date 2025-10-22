@@ -11,13 +11,13 @@ import java.util.List;
 import javax.swing.JOptionPane;
 
 public class AluguelRepository {
-    
-    private final File arquivo = new File("data/alugueis.txt");
+    // Constante do tipo arquivo armazenando o path do arquivo de texto
+    private final File ARQUIVO = new File("data/alugueis.txt");
 
 
     public synchronized void salvarRegistro(String registro) {
 
-        try (BufferedWriter bw = new BufferedWriter(new FileWriter(arquivo, true))) {
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter(ARQUIVO, true))) {
             bw.write(registro);
             bw.newLine();
         } catch (Exception e) {
@@ -28,12 +28,12 @@ public class AluguelRepository {
     public synchronized List<String> lerRegistros() {
         
         try {
-            if (!arquivo.exists()) {
-                arquivo.createNewFile();
+            if (!ARQUIVO.exists()) {
+                ARQUIVO.createNewFile();
                 
             }
 
-            BufferedReader br = new BufferedReader(new FileReader(arquivo));
+            BufferedReader br = new BufferedReader(new FileReader(ARQUIVO));
 
 
             List<String> linhas = new ArrayList<>();
@@ -53,7 +53,7 @@ public class AluguelRepository {
     }
 
     public synchronized void limparHistorico() {
-        try (BufferedWriter bw = new BufferedWriter(new FileWriter(arquivo))) {
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter(ARQUIVO))) {
             // Não escrevemos nada, apenas abrimos o arquivo, o que já apaga o conteúdo
             JOptionPane.showMessageDialog(null, "Histórico limpo com sucesso!");
         } catch (Exception e) {

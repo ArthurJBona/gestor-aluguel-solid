@@ -45,7 +45,7 @@ public class AluguelForm extends JFrame{
     }
 
     private void initComponents() {
-
+        // Fonte utilizada na view toda
         Font font = new Font("Serif", Font.BOLD, 14);
 
         // Painel principal com BoxLayout vertical
@@ -73,6 +73,7 @@ public class AluguelForm extends JFrame{
         pnlEntrada.add(lblAluguel);
         pnlEntrada.add(cmbAluguel);
 
+        // Painel para os botões
         JPanel pnlBotoes = new JPanel();
         pnlBotoes.setLayout(new FlowLayout(FlowLayout.CENTER, 10, 10));
         pnlBotoes.setBorder(BorderFactory.createTitledBorder("Ações"));
@@ -89,6 +90,7 @@ public class AluguelForm extends JFrame{
         pnlBotoes.add(btnLimparPainel);
         pnlBotoes.add(btnLimparHistorico);
 
+        // Painel para a saída dos resultados
         JPanel pnlSaida = new JPanel();
         pnlSaida.setLayout(new BorderLayout());
         pnlSaida.setBorder(BorderFactory.createTitledBorder("Resultados"));
@@ -104,7 +106,7 @@ public class AluguelForm extends JFrame{
         pnlPrincipal.add(pnlBotoes);
         pnlPrincipal.add(pnlSaida);
 
-
+        // Loop para aplicar fonte e cor de fundo
         for (Component p : pnlPrincipal.getComponents()) {
             if (p instanceof JPanel) {
                 p.setBackground(new Color(220, 240, 255));
